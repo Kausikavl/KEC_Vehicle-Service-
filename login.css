@@ -1,0 +1,45 @@
+#form{
+    margin-left: 400px;
+    padding: 50px;
+    align-items: center;
+}
+h2{
+    color: black;
+    background-blend-mode:color-burn;
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    padding: 16px;
+    color: #fff;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 12px;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
